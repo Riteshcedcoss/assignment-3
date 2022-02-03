@@ -1,0 +1,112 @@
+.container {
+    margin: 25px;
+  }
+  #nav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  #nav ul {
+    float: right;
+  }
+  #nav li {
+    display: inline;
+  }
+  #nav li a {
+    margin: 5px;
+  }
+  .site-logo-text {
+    font-size: 35px;
+    font-weight: bold;
+    border-left: 20px solid white;
+  }
+  .hero-bar {
+    margin-top: 20px;
+    border-top: 15px solid rgb(238, 238, 238);
+    border-bottom: 30px solid rgb(238, 238, 238);
+    border-left: 20px solid rgb(238, 238, 238);
+    background-color: rgb(238, 238, 238);
+  }
+  .hero-text {
+    width: 20%;
+  }
+  .hero-bar button {
+    margin-top: 20px;
+  }
+  .all-boxes {
+    /* background: yellowgreen; */
+    overflow: hidden;
+  }
+  .box {
+    float: left;
+    width: 30%;
+    margin: 15px;
+  }
+  .box-image {
+    background-color: rgb(238, 238, 238);
+    padding: 80px;
+    margin: 10px;
+  }
+  .box-heading {
+    font-weight: bold;
+    text-align: center;
+  }
+  .box-text {
+    text-align: center;
+    padding: 10px;
+  }
+  .btn-learn-more {
+    text-align: center;
+    padding: 10px;
+  }
+  .btn-learn-more a {
+    color: black;
+  }
+  #container3 
+{
+    background-color:rgb(238,238,238);
+    overflow:hidden;
+    padding:2% 20%;
+}
+#container3 h2,#container3 input
+{
+    float: left;
+}
+
+#container3 input[type="textbox"]
+{
+    width:300px;
+    height:25px;
+    padding:0px 5px;
+    margin:0px 10px;
+}
+
+#container3 h2
+{
+    font-size:30px;
+}
+
+#container3 input[type="submit"]
+{
+    padding:2px 0px;
+    background-color:#288ACF;
+    text-align:center;
+    width:200px;
+    
+    font-size:18px;
+    color:#fff;
+}
+#footer
+{
+    padding:25px 20px;
+}
+
+#footer p
+{
+    display:inline-block;
+}
+
+#footer p:nth-child(2)
+{
+    float:right;
+}
